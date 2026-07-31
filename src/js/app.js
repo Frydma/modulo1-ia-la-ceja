@@ -1,22 +1,3 @@
-import { 
-  createIcons, 
-  Compass, 
-  BrainCircuit, 
-  BadgeCheck, 
-  GitBranch, 
-  Layers, 
-  MessageSquare, 
-  Palette, 
-  Video, 
-  Code2, 
-  FlaskConical, 
-  Cpu,
-  Activity, 
-  Copy, 
-  Check, 
-  Layout 
-} from 'lucide';
-
 // Initialize the icons used in the HTML
 createIcons({
   icons: {
@@ -57,3 +38,4 @@ window.copyPromptToClipboard = function(id) {
       console.error('Error copying text to clipboard: ', err);
     });
 };
+lucide.createIcons();
